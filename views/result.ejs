@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>RESULTS</title>
+  </head>
+  <body>
+    <form action="back" method="GET">
+      <fieldset>
+        <table>
+          <caption>Submitted Information</caption>
+          <tbody>
+            <tr><td>Name:</td><td><%= locals.name %></td></tr>
+            <tr><td>Dojo Location:</td><td><%= locals.location %></td></tr>
+            <tr><td>Favorite Langage:</td><td><%= locals.language %></td></tr>
+            <tr><td>Comment:</td><td><%= locals.comment %></td></tr>
+          </tbody>
+        </table>
+        <button type="submit">Go Back</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
